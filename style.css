@@ -1,0 +1,70 @@
+/* TODO: design your profile with CSS */
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Nunito+Sans:wght@300&display=swap');
+
+body {
+  background-color: rgb(88, 35, 4)!important;
+}
+
+h1 {
+  color: #421305;
+  font-size: 32px;
+  font-family: 'Monoton';
+}
+
+h2 {
+  color: #7a2308;
+  font-size: 25px;
+  font-family: 'Monoton';
+}
+
+p {
+  font-family: 'Nunito Sans';
+}
+
+.card-white {
+    background-color: white;
+    width: 500px;
+    margin: 24px auto;
+    padding: 24px;
+    box-shadow: 2px 2px 16px rgb(0,0,0,0.1);
+    text-align: center;
+    border-radius: 16px;
+}
+
+.btn-purple {
+    padding: 16px;
+    background: #130113;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 8px;
+    display: inline-block;
+    transition: ease 0.8s;
+}
+
+.btn-purple:hover {
+  background-color: brown;
+  transform: rotate(45deg);
+  padding: 50px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 500px;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  font-size: 100px;
+  color: #edb5b5;
+}
+
+li {
+  list-style-type: none;
+  font-size: 50px;
+  text-align: center
+}
